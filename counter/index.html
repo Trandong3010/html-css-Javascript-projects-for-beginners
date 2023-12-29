@@ -9,7 +9,12 @@
   <body>
     <div class="root">
       <p class="title">counter</p>
-      <p class="">0</p>
+      <p id="count" class="count">0</p>
+      <div class="btn-group">
+        <button type="button" class="btn" onclick="onIncrease()">increase</button>
+        <button type="button" class="btn" onclick="onReset()">reset</button>
+        <button type="button" class="btn" onclick="onDecrease()">decrease</button>
+      </div>
     </div>
     <script src="./script.js"></script>
   </body>
